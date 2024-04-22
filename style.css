@@ -1,0 +1,66 @@
+ /* body adjustments */
+ body {
+   padding: 10px 100px 0px 100px;
+   margin: 10px 50px 0px 50px;
+ }
+
+ /* overall form adjustments */
+ form {
+   background-color: rgba(247, 247, 247, 255);
+   border: 1px solid navajowhite;
+   border-radius: 0px 0px 10px 10px;
+   padding: 20px;
+ }
+
+ /* input type adjustments */
+ input,
+ textarea,
+ button {
+   width: 95%;
+   padding: 10px;
+   margin: 10px;
+   text-indent: 10px;
+   border: 1px solid black;
+ }
+
+ /* button adjustments */
+ button {
+   background-color: rgba(137, 169, 88, 255);
+   width: 98%;
+   font-size: 20px;
+   color: white;
+   font-weight: bolder;
+ }
+
+ /* button hover adjustments */
+ button:hover {
+   background-color: grey;
+ }
+
+ /* heading if the form */
+ .head-container {
+   border: 1px solid rgba(165, 204, 111, 255);
+   border-radius: 10px;
+   text-indent: 60px;
+   background-color: rgba(165, 204, 111, 255);
+   color: white;
+ }
+
+ /* rough */
+ .head-container h1 {
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+ }
+
+ .head-container h6 {
+   font-size: 20px;
+   margin-top: 0px;
+   padding-top: 0px;
+ }
+
+ // HERE STARS THE JS CODE...
+
+ /* function success() {
+  alert ("Your Message Has Been Successfully Submitted. We Will Review And contact You Accordingly !");
+}
+*/

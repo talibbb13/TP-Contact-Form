@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="sweetalert2.min.css">
+
+ <title>HTML</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <div class="main-container">
+  <div class="head-container">
+   <h1>Contact Form</h1>
+   <h6>Please fill all the text in the fields</h6>
+  </div>
+  <form>
+   <label for="Name">
+    Your Name : <input type="text" name="name" id="name" placeholder="Your Full Name">
+   </label>
+   <br>
+   <label for="Email">
+    Email* <input type="email" name="email" id="email" placeholder="Valid Email Address" required>
+   </label>
+   
+   <br>
+      <label for="Subject">
+        Subject : <input type="text" name="subject" id="subject" placeholder="eg. job inquiry">
+      </label>
+   <br>
+   <label for="Message">
+    Message* <textarea name="messege" id="message" cols="50" rows="10" placeholder="Your Message To Us" required></textarea>
+   </label>
+   
+   <br>
+   <button onclick="success()" type="submit">Send</button>
+  </form>
+ </div>
+   <script src="sweetalert2.min.js"></script>
+ <script src="main.js">
+   
+ </script>
+</body>
+
+</html>
+
+
